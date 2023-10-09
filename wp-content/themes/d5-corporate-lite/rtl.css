@@ -1,0 +1,258 @@
+/*
+Theme Name: D5 CORPORATE LITE
+Theme URI: https://d5creation.com/theme/corporate
+
+Author: D5 Creation
+Author URI: https://d5creation.com
+
+Description: CORPORATE is a theme for Business, Corporate Companies, Small Business, Personal, Blog etc. Sites. CORPORATE WordPress Theme is super elegant and Professional which will create your business widely expressed. CORPORATE is Fully Responsive which will adjust with any devices automatically.  Right and Footer Sidebar will be usable for showing the widgets and Plugins. Full Wide page can be used for showing showcase or other purposes. Premium Version of this Theme has come with 9 different Color Schemes and 100+ Advanced Extra Theme Features. You can find details of this Theme in the Theme Page: https://d5creation.com/theme/corporate/
+
+Version: 3.7
+
+Tags: two-columns, right-sidebar, custom-header, custom-background, custom-menu, threaded-comments, sticky-post, full-width-template, translation-ready,  theme-options, blog, portfolio, education 
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+D5 CORPORATE LITE WordPress Theme, Copyright 2012-2015: D5 Creation (www.d5creation.com)
+D5 CORPORATE LITE is distributed under the terms of the GNU GPL
+
+Text Domain: d5-corporate-lite
+
+*/
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+caption,th,td {
+	text-align:right;
+}
+
+.alignnone,#content .alignnone,#content-full .alignnone,div .alignnone {
+	margin:5px 0 20px 20px;
+}
+
+.alignleft,#content .alignleft,#content-full .alignleft,div .alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+
+.alignright,#content .alignright,#content-full .alignright,div .alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+
+a img.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+
+a img.alignnone {
+	margin:5px 0 20px 20px;
+}
+
+a img.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+
+a img.aligncenter {
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.wp-caption.alignnone {
+	margin:5px 0 20px 20px;
+}
+
+.wp-caption.alignright {
+	margin:5px 0 20px 20px;
+}
+
+.wp-caption.alignleft {
+	margin:5px 20px 20px 0;
+}
+
+/* ================ Search Box ============== */
+
+#searchsubmit, input[type="submit"].search-submit, #bbp_search_submit, .woocommerce-product-search button[type="submit"] {
+	margin: 0 -5px 0 0;
+	left: 0;
+	right: auto;
+}
+
+input#s, input[type="search"].search-field, #bbp_search, .search-field {
+	padding: 5px 10px 5px 35px;
+}
+
+img.site-logo,h1.site-title {
+	text-align:right;
+}
+
+#content {
+	float:right;
+}
+
+#left-sidebar {
+	float:left;
+}
+
+ol,ul {
+	padding:0 20px 10px 0;
+}
+
+address {
+	text-align:left;
+}
+
+/* ================ Main Menu ============== */
+
+#main-menu-con .menu,#top-menu-con .menu {
+	float:left;
+}
+
+#main-menu-con li {
+	float:right;
+}
+
+#main-menu-con li ul {
+	float:right;
+}
+
+#main-menu-con ul ul,.sub-menu,.sub-menu ul ul {
+	right:50%;
+	left: auto;
+}
+
+#main-menu-con ul ul ul {
+	right:100%;
+	left: auto;
+}
+
+#main-menu-con ul ul a {
+	text-align:right;
+}
+
+.menu-item-has-children::after, .page_item_has_children::after {
+	right: 50%;
+	left: auto;
+}
+
+.sub-menu .menu-item-has-children::after, .sub-menu .page_item_has_children::after {
+	right: calc(100% - 5px);
+	left: auto;
+}
+
+#main-menu-con li.smedge > ul {
+	right:auto;
+	left:0;
+}
+
+#main-menu-con li li.smedge > ul {
+	right:auto;
+	left:100%;
+}
+
+#top-menu-con li {
+	float:right;
+}
+
+#top-menu-con li:first-child a {
+	border-right: none !important;
+	border-left: none;
+}
+
+#top-menu-con li:last-child a {
+	border-left: none !important;
+	border-right: none;
+}
+
+#top-menu-con > div > ul > li:first-child > a {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+#left-sidebar .widget {
+	float:left;
+}
+
+/*  Featured Boxes
+---------------------------- */
+
+blockquote:before {
+	margin-left:.2em;
+	margin-right: auto;
+}
+
+blockquote:after {
+	margin-right:.2em;
+	margin-left: auto;
+}
+
+#container .attachment-thumbnail {
+	float:right;
+	margin:8px 0 10px 15px;
+}
+
+h1.page-title,h1.arc-post-title {
+	text-align:right;
+}
+
+h2.post-title,h2.comments,h3#reply-title,h2.post-title-color {
+	text-align:right;
+}
+
+.floatright {
+	float:right;
+	text-align:right;
+}
+
+.floatleft {
+	float:left;
+	text-align:left;
+}
+
+#page-nav .alignleft {
+	text-align:left;
+}
+
+#page-nav .alignright {
+	text-align:right;
+}
+
+#commentsbox img.avatar {
+	right:0;
+	left: auto;
+}
+
+#commentsbox .commentlist li.comment {
+	padding:5px 50px 0 0;
+}
+
+#top-menu-con {
+	border-right:1px solid #09281A;
+	border-left:1px solid #589277;
+}
+
+#top-menu-con li a {
+	border-right:1px solid #589277;
+	border-left:1px solid #09281A;
+}
+
+button,input[type="reset"],input[type="button"],input[type="submit"] {
+	background:url(images/btn-green.png) repeat-x scroll left top #07AA5F;
+}
+
+.wp-video,.wp-audio {
+	margin-left:auto;
+	margin-right:auto;
+}
+
+blockquote {
+	border-right:10px solid #4DB878;
+	border-left:10px solid #4DB878;
+}
+
+.screen-reader-text:focus {
+	right:5px;
+	left: auto;
+}

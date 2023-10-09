@@ -1,0 +1,55 @@
+/* CORPORATE Theme by D5 Creation, www.d5creation.com
+/* =Responsive Design 
+-------------------------------------------------------------- */
+@media screen and (max-width: 1100px) {
+	
+	#container{ width: 100%; margin: 0; }
+	#container, #header, #top-menu-container, #footer, #creditline{ min-width: 100%; box-shadow: none; border-radius: 0 !important;  }
+	
+	#top-menu-container{ justify-content: center; }
+	#header-content{ flex-direction: column !important; align-items: center !important; }
+	#main-menu-con{ max-width: 100%; }
+	.logotitle{ width: auto; }
+	h1.site-title{ max-width: none; }
+	h1.site-title{ font-size: 50px; }
+	#heading{ font-size: 35px; }	
+	#content{ width: 100%; }
+	#right-sidebar{ width: 100%; display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start; }
+	#right-sidebar .widget{ width: 332px; max-width: calc(100% - 10px); margin: 10px; }
+	.featured-box, #footer-sidebar .footer-widgets{ min-width: calc(33.33% - 40px); }
+}
+
+@media screen and (max-width: 1024px) {
+	#resmwdt { width: 11px; }
+}
+
+@media screen and (max-width: 1023px) {
+	#resmwdt { width: 9px; }
+	#header-content{ flex-direction: row-reverse !important; align-items: center !important; }
+	.logotitle{ max-width: calc(100% - 60px); width: calc(100% - 60px);  }
+	h1.site-title{ font-size: 40px; text-align: center; }
+	#mobile-menu{ display: inline-flex; }
+	#main-menu-con{ position: absolute; top: 100%; left: 0; background: #f7f7f7; box-shadow: 0 0 3px 0 #cccccc; }
+	#main-menu-con.mmenumobile{ display: none; }
+	#main-menu-con ul { display: inline-block; margin: 0 auto; width: 100%; }
+	#main-menu-con li{ float: none; width: 210px; margin: 0 !important; border: none !important; position: relative; }
+	#main-menu-con a{ width: 100%; text-align: left; font-size: 14px; padding: 13px; }	
+	#main-menu-con .mainmenu-parent > ul > li > a{ border-bottom: 1px dotted #cccccc; }
+	#main-menu-con .mainmenu-parent > ul > li:last-child > a{ border-bottom: none; }
+	.menu-item-has-children::after, .page_item_has_children::after{ left: calc(100% - 5px); top: 50%; transform: translate(-100%, -50%); border-color: #aaaaaa transparent transparent transparent; }
+	#main-menu-con ul ul, .sub-menu, .sub-menu ul ul{ width: auto; top: calc(100% - 10px) !important; left: 25px !important; transform: none !important; }
+	#skslide.skitter .read-more{ display: none; }
+	#skslide .label_skitter{ font-size: 15px; }
+	#skslide.skitter .sldtexttitle{ font-size: 17px; }
+}
+
+@media screen and (max-width:800px){ 
+	.featured-box, #footer-sidebar .footer-widgets{ min-width: calc(50% - 40px); }
+	#skslide.skitter .info_slide_dots .image_number{ width: 7px; height: 7px; }
+}
+
+@media screen and (max-width:550px){ 	
+	.featured-box, #footer-sidebar .footer-widgets{ min-width: calc(100% - 40px); }
+	img.site-logo{ max-width: 100%; }
+	h1.site-title{ font-size: 30px; }
+}

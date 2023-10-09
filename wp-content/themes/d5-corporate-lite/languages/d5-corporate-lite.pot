@@ -1,0 +1,269 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: selfie\n"
+"POT-Creation-Date: 2019-11-02 17:49+0600\n"
+"PO-Revision-Date: 2015-09-22 14:40+0600\n"
+"Last-Translator: support@d5creation.com\n"
+"Language-Team: D5 Creation <support@d5creation.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.13\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:11 ../index.php:33 ../page.php:28
+msgid "Not Found Anything"
+msgstr ""
+
+#: ../404.php:12 ../archive.php:38 ../index.php:34 ../page.php:29
+#: ../search.php:41
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+
+#: ../404.php:14 ../archive.php:41 ../index.php:36 ../page.php:31
+#: ../search.php:44
+msgid "Or Return to the Home Page"
+msgstr ""
+
+#: ../404.php:16 ../archive.php:43 ../index.php:38 ../page.php:33
+#: ../search.php:46
+msgid "You can also Visit the Following. These are the Featured Contents"
+msgstr ""
+
+#: ../archive.php:14
+msgid "Posted by:"
+msgstr ""
+
+#: ../archive.php:22 ../fpost.php:22 ../index.php:19 ../search.php:31
+#: ../single.php:27
+msgid "Posted in"
+msgstr ""
+
+#: ../archive.php:22 ../fpost.php:22 ../index.php:19 ../search.php:31
+#: ../single.php:27
+msgid "Edit"
+msgstr ""
+
+#: ../archive.php:22 ../fpost.php:22 ../index.php:19 ../search.php:31
+#: ../single.php:27
+msgid "No Comments &#187;"
+msgstr ""
+
+#: ../archive.php:22 ../fpost.php:22 ../index.php:19 ../search.php:31
+#: ../single.php:27
+msgid "1 Comment &#187;"
+msgstr ""
+
+#: ../archive.php:22 ../fpost.php:22 ../index.php:19 ../search.php:31
+#: ../single.php:27
+msgid "% Comments &#187;"
+msgstr ""
+
+#: ../archive.php:22 ../fpost.php:22 ../index.php:19 ../search.php:31
+#: ../single.php:27
+msgid "Tags: "
+msgstr ""
+
+#: ../archive.php:31 ../fpost.php:29 ../index.php:26
+msgid "Newer Entries"
+msgstr ""
+
+#: ../archive.php:32 ../fpost.php:30 ../index.php:27
+msgid "Older Entries"
+msgstr ""
+
+#: ../archive.php:37 ../search.php:40
+msgid "Not Found"
+msgstr ""
+
+#: ../comments.php:13
+msgid "No Comments"
+msgstr ""
+
+#: ../comments.php:13
+msgid "One Comment"
+msgstr ""
+
+#: ../comments.php:13
+msgid "% Comments"
+msgstr ""
+
+#: ../comments.php:28
+msgid "Comments are Closed"
+msgstr ""
+
+#: ../fpost.php:19 ../fullwidth.php:17 ../functions.php:89 ../index.php:16
+#: ../page.php:18
+msgid "Read the Rest..."
+msgstr ""
+
+#: ../functions.php:21
+msgid "Main Menu"
+msgstr ""
+
+#: ../functions.php:21
+msgid "Top Menu"
+msgstr ""
+
+#: ../functions.php:109
+msgid "Read More..."
+msgstr ""
+
+#: ../functions.php:124
+msgid "Primary Sidebar"
+msgstr ""
+
+#: ../functions.php:133
+msgid "Secondary Sidebar"
+msgstr ""
+
+#: ../functions.php:142
+msgid "Footer Area One"
+msgstr ""
+
+#: ../functions.php:151
+msgid "Footer Area Two"
+msgstr ""
+
+#: ../functions.php:160
+msgid "Footer Area Three"
+msgstr ""
+
+#: ../functions.php:169
+msgid "Footer Area Four"
+msgstr ""
+
+#: ../inc/customize.php:9
+msgid "CORPORATE OPTIONS"
+msgstr ""
+
+#: ../inc/customize.php:10
+msgid "We appreciate an"
+msgstr ""
+
+#: ../inc/customize.php:10
+msgid "Honest Review"
+msgstr ""
+
+#: ../inc/customize.php:10
+msgid "of this Theme if you Love our Work"
+msgstr ""
+
+#: ../inc/customize.php:12
+msgid ""
+"Need More Features and Options including Exciting 3D Slide and 100+ Advanced "
+"Features? Try "
+msgstr ""
+
+#: ../inc/customize.php:13
+msgid "CORPORATE Extend"
+msgstr ""
+
+#: ../inc/customize.php:16
+msgid "You can Visit the CORPORATE Extend "
+msgstr ""
+
+#: ../inc/customize.php:16
+msgid "Demo Here"
+msgstr ""
+
+#: ../inc/customize.php:31
+msgid "Contact Number"
+msgstr ""
+
+#: ../inc/customize.php:46
+msgid "E-Mail or Extra"
+msgstr ""
+
+#: ../inc/customize.php:62
+msgid "Use Responsive Layout"
+msgstr ""
+
+#: ../inc/customize.php:65
+msgid "Check the Box if you want the Responsive Layout of your Website"
+msgstr ""
+
+#: ../inc/customize.php:79
+msgid "Display Page/Latest Posts"
+msgstr ""
+
+#: ../inc/customize.php:82
+msgid "Check here if you want to display the latest Posts in Front Page"
+msgstr ""
+
+#: ../inc/customize.php:92
+msgid "&nbsp;&nbsp;&nbsp;&nbsp; - Banner Image"
+msgstr ""
+
+#: ../inc/customize.php:109
+msgid "Front Page Banner Image"
+msgstr ""
+
+#: ../inc/customize.php:112
+msgid ""
+"Upload an image for the Front Page Banner.1050px X 400px image is recommended"
+msgstr ""
+
+#: ../inc/customize.php:122
+msgid "&nbsp;&nbsp;&nbsp;&nbsp; - Heading Text"
+msgstr ""
+
+#: ../inc/customize.php:137
+msgid "Front Page Heading"
+msgstr ""
+
+#: ../inc/customize.php:148
+msgid "&nbsp;&nbsp;&nbsp;&nbsp; - Featured Boxes"
+msgstr ""
+
+#: ../inc/customize.php:164
+msgid "Featured Image"
+msgstr ""
+
+#: ../inc/customize.php:167
+msgid ""
+"Upload an image for the Featured Box. 220px X 100px image is recommended"
+msgstr ""
+
+#: ../inc/customize.php:180
+msgid "Featured Title"
+msgstr ""
+
+#: ../inc/customize.php:196
+msgid "Featured Description"
+msgstr ""
+
+#: ../inc/customize.php:212
+msgid "Featured Link"
+msgstr ""
+
+#: ../inc/customize.php:225
+msgid "&nbsp;&nbsp;&nbsp;&nbsp; - Quote Text"
+msgstr ""
+
+#: ../inc/customize.php:240
+msgid "Quote Text"
+msgstr ""
+
+#: ../search.php:11
+msgid "Search Results"
+msgstr ""
+
+#: ../search.php:18
+msgid "Search Term:"
+msgstr ""
+
+#: ../search.php:19
+msgid "Number of Results:"
+msgstr ""
+
+#: ../single.php:26
+msgid "Pages:"
+msgstr ""
